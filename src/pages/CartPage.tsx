@@ -9,7 +9,7 @@ import { siteConfig } from '../config/site'
 
 export function CartPage() {
   usePageMeta({
-    title: 'Shopping Bag — NYASA',
+    title: 'Shopping Bag — Fashionnova',
     description: 'Review your selected items, update quantities and proceed to the demo checkout.',
     image: '/images/cat-sneakers.jpg',
   })

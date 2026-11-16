@@ -26,7 +26,7 @@ const helpLinks = [
   { label: 'Delivery & pickup', to: '/contact#delivery' },
   { label: 'Wishlist', to: '/wishlist' },
   { label: 'Shopping bag', to: '/cart' },
-  { label: 'About Nyasa', to: '/about' },
+  { label: 'About Fashionnova', to: '/about' },
 ]
 
 const legalLinks = [
@@ -58,7 +58,7 @@ export function Footer() {
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`Nyasa on ${label} (external link)`}
+                  aria-label={`Fashionnova on ${label} (external link)`}
                   className="flex h-9 w-9 items-center justify-center border border-white/15 text-white/70 transition-colors hover:border-white hover:text-white"
                 >
                   <Icon className="h-4 w-4" aria-hidden="true" />

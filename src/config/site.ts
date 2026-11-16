@@ -6,7 +6,7 @@ import type { DeliveryZone } from '../types'
  * business details before going live. Delivery fees are demo values.
  */
 export const siteConfig = {
-  name: 'NYASA',
+  name: 'Fashionnova',
   tagline: 'Your Style. Your Statement.',
   description:
     'A modern Malawi-based fashion store for considered clothing and footwear — everyday essentials, statement pieces and sneakers selected with care.',
@@ -20,7 +20,7 @@ export const siteConfig = {
     phoneAltHref: 'tel:+265996656162',
     whatsapp: '265992307144',
     whatsappMessage:
-      'Hello NYASA, I would like to make a payment or ask about a product.',
+      'Hello Fashionnova, I would like to make a payment or ask about a product.',
     email: 'Innocentmwase7@gmail.com',
     emailPlaceholder: 'Innocentmwase7@gmail.com',
     address: 'Zomba Main Market, Zomba, Malawi',

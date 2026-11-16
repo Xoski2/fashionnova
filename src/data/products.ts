@@ -415,8 +415,8 @@ export const products: Product[] = [
   },
   {
     id: 'p14',
-    slug: 'nyasa-court-low',
-    name: 'Nyasa Court Low',
+    slug: 'fashionnova-court-low',
+    name: 'Fashionnova Court Low',
     category: 'sneakers',
     price: 58000,
     description:
@@ -633,8 +633,8 @@ export const products: Product[] = [
   },
   {
     id: 'p21',
-    slug: 'nyasa-everyday-slip-on',
-    name: 'Nyasa Everyday Slip-On',
+    slug: 'fashionnova-everyday-slip-on',
+    name: 'Fashionnova Everyday Slip-On',
     category: 'casual',
     price: 36000,
     compareAtPrice: 42000,

@@ -9,7 +9,7 @@ export function AnnouncementBar() {
           to="/shop?new=1"
           className="group inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-white/90 transition-colors hover:text-white sm:text-[11px]"
         >
-          New season, new style — discover Nyasa
+          New season, new style — discover Fashionnova
           <ArrowUpRight
             className="h-3 w-3 transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
             aria-hidden="true"

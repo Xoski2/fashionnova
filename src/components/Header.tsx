@@ -198,7 +198,7 @@ export function Header() {
             onClick={(event) => event.stopPropagation()}
             role="dialog"
             aria-modal="true"
-            aria-label="Search Nyasa"
+            aria-label="Search Fashionnova"
           >
             <div className="flex items-start justify-between gap-4">
               <div>

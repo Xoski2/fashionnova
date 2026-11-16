@@ -24,8 +24,8 @@ const initialForm: FormState = {
 
 export function CheckoutPage() {
   usePageMeta({
-    title: 'Checkout — NYASA',
-    description: 'Demo checkout for NYASA. No card details collected. Prices in MWK.',
+    title: 'Checkout — Fashionnova',
+    description: 'Demo checkout for Fashionnova. No card details collected. Prices in MWK.',
     image: '/images/cat-men.jpg',
   })
 
@@ -434,7 +434,7 @@ export function CheckoutPage() {
           </div>
           <a
             href={whatsAppUrl(
-              `Hello NYASA, I would like to arrange payment for my order. Total: ${formatPrice(total)}.`,
+              `Hello Fashionnova, I would like to arrange payment for my order. Total: ${formatPrice(total)}.`,
             )}
             target="_blank"
             rel="noopener noreferrer"

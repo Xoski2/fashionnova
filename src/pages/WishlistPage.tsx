@@ -8,8 +8,8 @@ import { products } from '../data/products'
 
 export function WishlistPage() {
   usePageMeta({
-    title: 'Wishlist — NYASA',
-    description: 'Saved products in your NYASA wishlist. Add them to your bag or continue shopping.',
+    title: 'Wishlist — Fashionnova',
+    description: 'Saved products in your Fashionnova wishlist. Add them to your bag or continue shopping.',
     image: '/images/cat-women.jpg',
   })
 

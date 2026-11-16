@@ -34,9 +34,9 @@ const initialForm: FormState = {
 
 export function ContactPage() {
   usePageMeta({
-    title: 'Contact NYASA — Clothing & Shoes',
+    title: 'Contact Fashionnova — Clothing & Shoes',
     description:
-      'Get in touch with NYASA. Demo contact form with WhatsApp, phone, email and business hours. Messages are not sent to a server.',
+      'Get in touch with Fashionnova. Demo contact form with WhatsApp, phone, email and business hours. Messages are not sent to a server.',
     image: '/images/cat-accessories.jpg',
   })
 
@@ -87,7 +87,7 @@ export function ContactPage() {
   }
 
   const chatUrl = whatsAppUrl(
-    'Hello Nyasa, I would like to enquire about your products and payments.',
+    'Hello Fashionnova, I would like to enquire about your products and payments.',
   )
 
   return (

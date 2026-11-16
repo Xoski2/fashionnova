@@ -4,8 +4,8 @@ import { siteConfig } from '../config/site'
 
 export function TermsPage() {
   usePageMeta({
-    title: 'Terms of Service — NYASA',
-    description: 'Demo terms of service for the NYASA storefront.',
+    title: 'Terms of Service — Fashionnova',
+    description: 'Demo terms of service for the Fashionnova storefront.',
   })
 
   return (

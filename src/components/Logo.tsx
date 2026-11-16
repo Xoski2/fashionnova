@@ -10,9 +10,9 @@ export function Logo({ className, tone = 'light' }: LogoProps) {
   return (
     <Link
       to="/"
-      aria-label="NYASA home"
+      aria-label="Fashionnova home"
       className={cn(
-        'inline-flex items-baseline gap-2 font-display text-[1.65rem] font-black uppercase leading-none tracking-[0.2em] transition-opacity hover:opacity-70',
+        'inline-flex items-baseline gap-2 font-display text-[0.95rem] font-black uppercase leading-none tracking-[0.08em] transition-opacity hover:opacity-70 min-[380px]:text-[1.15rem] min-[380px]:tracking-[0.1em] sm:text-[1.5rem] sm:tracking-[0.16em] lg:text-[1.65rem] lg:tracking-[0.2em]',
         tone === 'dark' ? 'text-white' : 'text-ink',
         className,
       )}
@@ -23,7 +23,7 @@ export function Logo({ className, tone = 'light' }: LogoProps) {
           tone === 'dark' ? 'logo-sheen--dark' : 'logo-sheen--light',
         )}
       >
-        NYASA
+        Fashionnova
       </span>
       <span className="relative mb-0.5 flex h-1.5 w-1.5" aria-hidden="true">
         <span

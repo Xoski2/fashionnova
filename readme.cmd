@@ -1,13 +1,13 @@
 @echo off
 setlocal EnableExtensions
-title NYASA Storefront - README
+title Fashionnova Storefront - README
 cd /d "%~dp0"
 
 where npm >nul 2>nul
 if errorlevel 1 (
   cls
   echo ============================================================
-  echo   NYASA STOREFRONT - SETUP REQUIRED
+  echo   Fashionnova STOREFRONT - SETUP REQUIRED
   echo ============================================================
   echo.
   echo   Node.js and npm were not found on this computer.
@@ -22,7 +22,7 @@ if errorlevel 1 (
 :menu
 cls
 echo ============================================================
-echo   NYASA STOREFRONT - QUICK START
+echo   Fashionnova STOREFRONT - QUICK START
 echo   React + TypeScript + Vite + Tailwind CSS
 echo ============================================================
 echo.

@@ -1,7 +1,7 @@
 import type { CartLine, DeliveryZone, PlacedOrder } from '../types'
 import { readStorage, writeStorage } from './storage'
 
-const ORDERS_KEY = 'nyasa-demo-orders-v1'
+const ORDERS_KEY = 'fashionnova-demo-orders-v1'
 
 export interface CustomerDetails {
   fullName: string

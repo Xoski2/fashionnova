@@ -12,8 +12,8 @@ import type { CartItem, CartLine, Product } from '../types'
 import { getProductById } from '../data/products'
 import { readStorage, writeStorage } from '../lib/storage'
 
-const CART_KEY = 'nyasa-cart-v1'
-const WISHLIST_KEY = 'nyasa-wishlist-v1'
+const CART_KEY = 'fashionnova-cart-v1'
+const WISHLIST_KEY = 'fashionnova-wishlist-v1'
 
 interface Notice {
   id: number

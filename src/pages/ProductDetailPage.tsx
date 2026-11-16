@@ -31,13 +31,13 @@ export function ProductDetailPage() {
   const soldOut = product ? product.stock <= 0 : true
   const productWhatsAppUrl = product
     ? whatsAppUrl(
-        `Hello NYASA, I am interested in the ${product.name}${selectedColor ? ` (${selectedColor})` : ''}${selectedSize ? `, size ${selectedSize}` : ''}. I would like to arrange payment on WhatsApp.`,
+        `Hello Fashionnova, I am interested in the ${product.name}${selectedColor ? ` (${selectedColor})` : ''}${selectedSize ? `, size ${selectedSize}` : ''}. I would like to arrange payment on WhatsApp.`,
       )
     : '#'
   const requiresSize = product ? !(product.sizes.length === 1 && product.sizes[0] === 'One Size') : false
 
   usePageMeta({
-    title: product ? `${product.name} — NYASA` : 'Product — NYASA',
+    title: product ? `${product.name} — Fashionnova` : 'Product — Fashionnova',
     description: product?.description.slice(0, 155),
     image: product?.images[0]?.src,
   })

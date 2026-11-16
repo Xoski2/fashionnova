@@ -61,9 +61,9 @@ const reviews = [
 
 export function HomePage() {
   usePageMeta({
-    title: 'NYASA — Clothing & Shoes | Your Style. Your Statement.',
+    title: 'Fashionnova — Clothing & Shoes | Your Style. Your Statement.',
     description:
-      'NYASA is a modern fashion store for clothing and footwear in Malawi. Shop new arrivals, sneakers, formal shoes and considered wardrobe staples.',
+      'Fashionnova is a modern fashion store for clothing and footwear in Malawi. Shop new arrivals, sneakers, formal shoes and considered wardrobe staples.',
     image: '/images/hero.jpg',
   })
 
@@ -171,7 +171,7 @@ export function HomePage() {
           <SectionHeading
             eyebrow="Just in"
             title="New arrivals"
-            description="Fresh pieces added to the Nyasa edit for the new season."
+            description="Fresh pieces added to the Fashionnova edit for the new season."
             action={{ label: 'Shop new arrivals', to: '/shop?new=1' }}
           />
           <div className="mt-8">
@@ -213,7 +213,7 @@ export function HomePage() {
               Step into something new
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-white/70">
-              Find your next favorite look at Nyasa. Tailoring, sneakers and
+              Find your next favorite look at Fashionnova. Tailoring, sneakers and
               everyday pieces built to last beyond a single season.
             </p>
             <div className="mt-7 flex flex-wrap items-center gap-3">
@@ -244,7 +244,7 @@ export function HomePage() {
 
       <section className="container-x py-12 sm:py-16 lg:py-20">
         <SectionHeading
-          eyebrow="Why shop with Nyasa"
+          eyebrow="Why shop with Fashionnova"
           title="Built for a better way to shop"
           description="Pragmatic benefits designed to give you clarity from browsing to checkout."
         />

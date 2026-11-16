@@ -4,8 +4,8 @@ import { siteConfig } from '../config/site'
 
 export function PrivacyPolicyPage() {
   usePageMeta({
-    title: 'Privacy Policy — NYASA',
-    description: 'Demo privacy policy for the NYASA storefront.',
+    title: 'Privacy Policy — Fashionnova',
+    description: 'Demo privacy policy for the Fashionnova storefront.',
   })
 
   return (

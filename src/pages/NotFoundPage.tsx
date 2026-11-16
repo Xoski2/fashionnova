@@ -4,7 +4,7 @@ import { usePageMeta } from '../hooks/usePageMeta'
 
 export function NotFoundPage() {
   usePageMeta({
-    title: 'Page not found — NYASA',
+    title: 'Page not found — Fashionnova',
     description: 'The page you are looking for does not exist or has been moved.',
   })
 

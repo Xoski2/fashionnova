@@ -1,4 +1,4 @@
-# CHAT MEMORY — NYASA Storefront
+# CHAT MEMORY — Fashionnova Storefront
 
 This file is the persistent project memory for AI-assisted sessions. Read it
 before making changes and update the "Session log" and "Current status"
@@ -8,10 +8,10 @@ Last updated: 2026-11-16
 
 ## Project snapshot
 
-- Project: **NYASA** — "Your Style. Your Statement."
+- Project: **Fashionnova** — "Your Style. Your Statement."
 - Type: front-end fashion storefront (clothing and footwear), Malawi-focused.
 - Location: `E:\xoski\business-website-pro`
-- Package name: `nyasa-store` (private, version 1.0.0, ESM).
+- Package name: `fashionnova-store` (private, version 1.0.0, ESM).
 - Stack: React 18 + TypeScript 5.6 + Vite 6 + Tailwind CSS 3 + React Router 6.
 - Icons: `lucide-react`. Fonts: Archivo (display) and Manrope (body), loaded
   from Google Fonts in `index.html`.
@@ -62,6 +62,8 @@ npm run typecheck  # TypeScript only, no emit
 - Production URL: https://nyasa-store-iota.vercel.app
 - The repo is connected to Vercel, so every push to `main` triggers a new
   production deployment automatically. `vercel.json` provides the SPA rewrite.
+- GitHub repository and Vercel project/resource names still use `nyasa-store`;
+  only the storefront brand was renamed to Fashionnova.
 - GitHub CLI (portable): `C:\Users\XoskiDesign\AppData\Local\Temp\opencode\tools\bin\gh.exe`.
 - Vercel CLI 65.16.0 is installed at
   `C:\Users\XoskiDesign\AppData\Roaming\npm\node_modules\vercel\dist\vc.js`
@@ -115,9 +117,9 @@ public/favicon.svg             favicon
 
 ## Behavioral notes
 
-- Cart and wishlist persist in `localStorage` under `nyasa-cart-v1` and
-  `nyasa-wishlist-v1`.
-- Demo orders persist under `nyasa-demo-orders-v1`, capped at 25 entries.
+- Cart and wishlist persist in `localStorage` under `fashionnova-cart-v1` and
+  `fashionnova-wishlist-v1`.
+- Demo orders persist under `fashionnova-demo-orders-v1`, capped at 25 entries.
 - Cart keys combine product id, size, and color: `id::size::color`.
 - Quantities are clamped to product stock.
 - `placeDemoOrder` simulates latency and stores locally; it does not collect
@@ -163,7 +165,7 @@ no attribution required): https://www.pexels.com/license/. Source photo IDs:
 - Full-size pattern: `https://images.pexels.com/photos/{id}/pexels-photo-{id}.jpeg`.
 - Limitation: imagery was matched using Pexels metadata (titles/descriptions/
   tags) rather than visual review; the owner should confirm every photo and
-  swap in real NYASA inventory shots.
+  swap in real Fashionnova inventory shots.
 
 ## Conventions
 
@@ -181,7 +183,7 @@ no attribution required): https://www.pexels.com/license/. Source photo IDs:
 ## Known gaps / suggested next work
 
 1. Replace all placeholder business and social details.
-2. Replace stock Pexels product photos with real NYASA inventory photos and
+2. Replace stock Pexels product photos with real Fashionnova inventory photos and
    confirm final image licensing/usage.
 3. Add a backend/order API and a payment provider; do not collect card data in
    the front end.
@@ -213,6 +215,10 @@ no attribution required): https://www.pexels.com/license/. Source photo IDs:
   and deployed production to https://nyasa-store-iota.vercel.app.
 - Verified the live site returns 200 for `/`, `/shop`, a product route, and
   image assets.
+- Renamed the brand from NYASA to Fashionnova across the header logo, page
+  titles/meta, prose, WhatsApp messages, product names/slugs, storage keys,
+  package name, and placeholder artwork; adjusted the logo sizing for the
+  longer name.
 
 ### 2026-10-25
 

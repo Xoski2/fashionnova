@@ -46,9 +46,9 @@ function sortSizes(sizes: string[]) {
 
 export function ShopPage() {
   usePageMeta({
-    title: 'Shop — NYASA Clothing & Shoes',
+    title: 'Shop — Fashionnova Clothing & Shoes',
     description:
-      'Browse all NYASA products. Filter by category, size, price and sort by newest or popularity. Prices shown in MWK.',
+      'Browse all Fashionnova products. Filter by category, size, price and sort by newest or popularity. Prices shown in MWK.',
     image: '/images/cat-sneakers.jpg',
   })
 
@@ -344,7 +344,7 @@ export function ShopPage() {
         </div>
         <div className="container-x relative py-10 sm:py-12 lg:py-14">
           <p className="text-[11px] font-bold uppercase tracking-widest2 text-clay">
-            Nyasa store
+            Fashionnova store
           </p>
           <h1 className="mt-2 font-display text-3xl font-black uppercase tracking-tight text-white sm:text-4xl lg:text-5xl">
             {activeLabel}

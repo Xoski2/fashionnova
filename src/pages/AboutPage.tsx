@@ -25,9 +25,9 @@ const values = [
 
 export function AboutPage() {
   usePageMeta({
-    title: 'About NYASA — Clothing & Shoes',
+    title: 'About Fashionnova — Clothing & Shoes',
     description:
-      'Learn about NYASA, a modern Malawi-based fashion store for clothing and footwear built with quality, care and confidence in mind.',
+      'Learn about Fashionnova, a modern Malawi-based fashion store for clothing and footwear built with quality, care and confidence in mind.',
     image: '/images/hero-alt.jpg',
   })
 
@@ -53,7 +53,7 @@ export function AboutPage() {
             Style with purpose
           </h1>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-white/70">
-            NYASA is a modern fashion and footwear store for people who care
+            Fashionnova is a modern fashion and footwear store for people who care
             about how they show up. Clean lines, considered choices, confidence
             in every step.
           </p>
@@ -71,7 +71,7 @@ export function AboutPage() {
             </h2>
             <div className="mt-4 space-y-4 text-sm leading-relaxed text-smoke sm:text-base">
               <p>
-                NYASA curates clothing and footwear that feels current without
+                Fashionnova curates clothing and footwear that feels current without
                 chasing every trend. Our edit focuses on versatile pieces you can
                 wear on repeat — tailored, relaxed, refined and ready for the
                 realities of everyday life.
@@ -135,7 +135,7 @@ export function AboutPage() {
           <SectionHeading
             eyebrow="Our values"
             title="What guides us"
-            description="The principles behind the Nyasa edit — practical, considered and built to last."
+            description="The principles behind the Fashionnova edit — practical, considered and built to last."
             align="center"
           />
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
