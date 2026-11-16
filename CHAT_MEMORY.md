@@ -57,13 +57,13 @@ npm run typecheck  # TypeScript only, no emit
 
 ## Deployment
 
-- GitHub (public): https://github.com/Xoski2/nyasa-store (branch `main`).
-- Vercel project: `nyasa-store` under the `xoski2s-projects` scope.
-- Production URL: https://nyasa-store-iota.vercel.app
+- GitHub (public): https://github.com/Xoski2/fashionnova (branch `main`).
+- Vercel project: `fashionnova` under the `xoski2s-projects` scope.
+- Production URL: https://fashionnova-xoski2s-projects.vercel.app
 - The repo is connected to Vercel, so every push to `main` triggers a new
   production deployment automatically. `vercel.json` provides the SPA rewrite.
-- GitHub repository and Vercel project/resource names still use `nyasa-store`;
-  only the storefront brand was renamed to Fashionnova.
+- Vercel SSO/deployment protection is disabled so the production and deployment
+  URLs are publicly accessible.
 - GitHub CLI (portable): `C:\Users\XoskiDesign\AppData\Local\Temp\opencode\tools\bin\gh.exe`.
 - Vercel CLI 65.16.0 is installed at
   `C:\Users\XoskiDesign\AppData\Roaming\npm\node_modules\vercel\dist\vc.js`
@@ -210,15 +210,19 @@ no attribution required): https://www.pexels.com/license/. Source photo IDs:
 - `npm run typecheck` and `npm run build` pass; `dist/images` contains 36 JPGs.
 - Added `.gitignore` and `vercel.json` (Vite build, `dist` output, SPA rewrite).
 - Initialized git and committed `e5881a2`.
-- Pushed to the public GitHub repo `Xoski2/nyasa-store`.
-- Created and linked the Vercel project `nyasa-store`, connected it to GitHub,
-  and deployed production to https://nyasa-store-iota.vercel.app.
+- Pushed to the public GitHub repo `Xoski2/nyasa-store` (later renamed to
+  `Xoski2/fashionnova`).
+- Created and linked the Vercel project `nyasa-store` (later renamed to
+  `fashionnova`), connected it to GitHub, and deployed production.
 - Verified the live site returns 200 for `/`, `/shop`, a product route, and
   image assets.
 - Renamed the brand from NYASA to Fashionnova across the header logo, page
   titles/meta, prose, WhatsApp messages, product names/slugs, storage keys,
   package name, and placeholder artwork; adjusted the logo sizing for the
   longer name.
+- Renamed the GitHub repository to `Xoski2/fashionnova` and the Vercel project
+  to `fashionnova`; disabled Vercel SSO protection; updated the live URL to
+  https://fashionnova-xoski2s-projects.vercel.app.
 
 ### 2026-10-25
 
