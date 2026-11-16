@@ -55,6 +55,18 @@ npm run typecheck  # TypeScript only, no emit
 
 `readme.cmd` in the project root is a Windows menu that runs these commands.
 
+## Deployment
+
+- GitHub (public): https://github.com/Xoski2/nyasa-store (branch `main`).
+- Vercel project: `nyasa-store` under the `xoski2s-projects` scope.
+- Production URL: https://nyasa-store-iota.vercel.app
+- The repo is connected to Vercel, so every push to `main` triggers a new
+  production deployment automatically. `vercel.json` provides the SPA rewrite.
+- GitHub CLI (portable): `C:\Users\XoskiDesign\AppData\Local\Temp\opencode\tools\bin\gh.exe`.
+- Vercel CLI 65.16.0 is installed at
+  `C:\Users\XoskiDesign\AppData\Roaming\npm\node_modules\vercel\dist\vc.js`
+  (run with `node <path> ...` because the global shims are missing).
+
 ## Source map
 
 ```text
@@ -175,8 +187,7 @@ no attribution required): https://www.pexels.com/license/. Source photo IDs:
    the front end.
 4. Wire the contact form and newsletter form to real endpoints.
 5. Add linting, formatting, and automated tests.
-6. Add deployment configuration and SPA fallback routing for the host.
-7. Consider inventory synchronization, order lookup, and analytics consent.
+6. Consider inventory synchronization, order lookup, and analytics consent.
 
 ## Session log
 
@@ -195,6 +206,13 @@ no attribution required): https://www.pexels.com/license/. Source photo IDs:
 - Updated every image reference and alt text; `og:image` is now `hero.jpg`.
 - Removed all old SVGs except `placeholder.svg` (SmartImage fallback).
 - `npm run typecheck` and `npm run build` pass; `dist/images` contains 36 JPGs.
+- Added `.gitignore` and `vercel.json` (Vite build, `dist` output, SPA rewrite).
+- Initialized git and committed `e5881a2`.
+- Pushed to the public GitHub repo `Xoski2/nyasa-store`.
+- Created and linked the Vercel project `nyasa-store`, connected it to GitHub,
+  and deployed production to https://nyasa-store-iota.vercel.app.
+- Verified the live site returns 200 for `/`, `/shop`, a product route, and
+  image assets.
 
 ### 2026-10-25
 
