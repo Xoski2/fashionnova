@@ -1,0 +1,8 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1000" fill="#EDE6DA"/>
+  <g fill="none" stroke="#131313" stroke-width="12" opacity="0.12">
+    <circle cx="400" cy="460" r="120"/>
+    <path d="M280 620 L320 540 L360 580 L400 520 L440 580 L480 540 L520 620 Z"/>
+  </g>
+  <text x="400" y="700" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="14" fill="#131313" opacity="0.25">NYASA</text>
+</svg>

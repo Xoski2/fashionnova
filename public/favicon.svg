@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" fill="#131313"/>
+  <text x="50%" y="54%" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="16" font-weight="900" letter-spacing="6" fill="#FFFFFF">NY</text>
+  <circle cx="44" cy="36" r="2" fill="#B4552D"/>
+</svg>

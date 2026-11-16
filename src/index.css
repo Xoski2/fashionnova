@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #f7f3ec;
+  color: #131313;
+  font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background-color: rgba(180, 85, 45, 0.16);
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  z-index: 100;
+  transform: translateY(-160%);
+  background-color: #131313;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 10px;
+  font-weight: 700;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.container-x {
+  width: min(1180px, calc(100% - 2rem));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  .container-x {
+    width: min(1180px, calc(100% - 2.5rem));
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-x {
+    width: min(1180px, calc(100% - 3rem));
+  }
+}
+
+.logo-sheen {
+  display: inline-block;
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: logo-sheen 5s linear infinite;
+}
+
+.logo-sheen--light {
+  background-image: linear-gradient(
+    100deg,
+    #131313 0%,
+    #131313 38%,
+    #b4552d 50%,
+    #131313 62%,
+    #131313 100%
+  );
+}
+
+.logo-sheen--dark {
+  background-image: linear-gradient(
+    100deg,
+    #ffffff 0%,
+    #ffffff 38%,
+    #f0c9b5 50%,
+    #ffffff 62%,
+    #ffffff 100%
+  );
+}
+
+@keyframes logo-sheen {
+  0% {
+    background-position: 150% center;
+  }
+
+  100% {
+    background-position: -50% center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .logo-sheen {
+    background-image: none;
+    color: inherit;
+    animation: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
